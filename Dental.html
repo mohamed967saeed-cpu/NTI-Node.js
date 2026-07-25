@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="Dental.css">
+<body>
+    <div id="container">
+
+        <h1 id="title">Prime Dental</h1>
+        <p id="p">Fill in your details and we'll confirm your slot shortly</p>
+        <form action="" id="Fo">
+            <label for="Name" >Name</label>
+            <input type="text" placeholder="Enter your name" required id="Name" class="in">
+            <label for="Email" >Email</label>
+            <input type="email" placeholder="example123@gmail.com" required id="Email" class="in">
+            <label for="tel" >Phone</label>
+            <input type="tel" placeholder="+20.........." maxlength="11" required id="tel" class="in"> 
+
+            <label for="DR.A" class="lab" ><input type="radio" name="DR" id="DR.A" class="r">Dr.Ahmed (9:00 AM → 5:00 PM)</label>
+
+
+            <label for="DR.M" class="lab"><input type="radio" name="DR"  id="DR.M" class="r"> Dr.Mohamed (5:00 PM → 11:30 PM)</label>
+
+            <label for="sel" id="treatment">Choose Treatment (اختر نوع العلاج)</label>
+            <select name="" id="Sel" >
+                <option value="">Choose Treatment (اختر نوع العلاج)</option>
+                <option value="Check-up">Check-up (كشف)	200 EGP</option>
+                <option value="Teeth Cleaning">Teeth Cleaning	(تنظيف الأسنان) 350 EGP</option>
+                <option value="Dental Filling">Dental Filling	(حشو الأسنان) 500 EGP</option>
+                <option value="Root Canal Treatment">Root Canal Treatment	(علاج العصب) 1200 EGP</option>
+                <option value="Tooth Extraction">Tooth Extraction	(خلع الأسنان) 700 EGP</option>
+                <option value="Teeth Whitening">Teeth Whitening	(تبييض الأسنان) 1500 EGP</option>
+            </select>
+
+            <input type="submit" id="sub" value="Book Appointment">
+            <p id="mess"></p>
+
+
+
+
+
+
+
+
+
+
+
+        
+
+        </form>
+    </div>
+
+    <script  type="module" src="./registration-form.js"></script>
+
+
+    
+</body>
+</html>
