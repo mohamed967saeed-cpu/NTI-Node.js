@@ -1,0 +1,27 @@
+{
+  "name": "project1",
+  "version": "1.0.0",
+  "description": "summer truaining\r Godd Mor",
+  "main": "customer_data.js",
+  "scripts": {
+    "build":"tsc",
+    "watch":"tsc --watch",
+    "start":"node dist/index.js",
+    "dev":" tsc && node dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mohamed967saeed-cpu/NTI-Node.js.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/mohamed967saeed-cpu/NTI-Node.js/issues"
+  },
+  "homepage": "https://github.com/mohamed967saeed-cpu/NTI-Node.js#readme",
+  "devDependencies": {
+    "typescript": "^7.0.2"
+  }
+}
